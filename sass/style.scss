@@ -1,0 +1,44 @@
+$font-family-sans-serif:        'Lato', sans-serif;
+
+$primary:                       #121421;
+$secondary:                     #1E202C;
+$success:                       #6EBB7B;
+$warning:                       #FDAF4B;
+$danger:                        #EE4633;
+
+// input
+$input-bg:                      rgba(109,114,132,0.4);
+$input-border-color:            #121421;
+$input-color:                   rgba(255,255,255,0.75);
+
+//Select
+$form-select-indicator-color:   #121421;
+$form-select-bg-size:             22px 20px;
+$form-select-color:             #F15A33;
+
+//Boton
+$btn-font-weight:                 bold;
+
+//nav Active
+$component-active-bg:           #4E5261;
+
+
+// Estilos propios
+.nav-link img{
+    width:40px;
+    height: 40px;
+}
+#icon-ok{
+    width:55px;
+}
+.cont-h{
+    height: 91vh;
+}
+.btn {
+    background-image: linear-gradient(to bottom, rgba(241, 90, 51, 0.9)1%, rgba(255,255,255,0.0) 26%, rgba(255,255,255,0.0) 76%, rgba(241, 90, 51, 0.9) 100%);
+  }
+.form-control{
+border-bottom: 4px solid #6D7284 !important;
+}
+  
+@import "../node_modules/bootstrap/scss/bootstrap";
